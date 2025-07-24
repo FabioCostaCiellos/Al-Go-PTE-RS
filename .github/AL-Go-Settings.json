@@ -3,6 +3,6 @@
   "type": "PTE",
   "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main",
   "environments": [
-    "Test-Sandbox"
+    "test-sandbox"
   ]
 }
