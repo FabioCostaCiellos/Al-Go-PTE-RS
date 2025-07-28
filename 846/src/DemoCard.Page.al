@@ -1,9 +1,9 @@
-page 80001 TestCard
+page 80001 DemoCard
 {
     PageType = Card;
     ApplicationArea = All;
     UsageCategory = Administration;
-    Caption = 'Test Card';
+    Caption = 'Demo Card';
 
     layout
     {
@@ -11,11 +11,11 @@ page 80001 TestCard
         {
             group(GroupName)
             {
-                field(Field1; Field1)
+                field(Field1; Random1000)
                 {
                     Editable = false;
                 }
-                field(Field2; Field2)
+                field(Field2; Random10000)
                 {
                     Editable = false;
                 }
@@ -36,13 +36,13 @@ page 80001 TestCard
                 trigger OnAction()
                 begin
                     Randomize();
-                    Field1 := Random(1000).ToText();
-                    Field2 := Random(10000).ToText();
+                    Random1000 := Random(1000).ToText();
+                    Random10000 := Random(10000).ToText();
                 end;
             }
         }
     }
 
     var
-        Field1, Field2 : Text;
+        Random1000, Random10000 : Text;
 }
