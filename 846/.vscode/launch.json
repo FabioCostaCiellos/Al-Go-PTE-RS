@@ -1,15 +1,29 @@
 {
     "version": "0.2.0",
     "configurations": [
+        // {
+        //     "type": "al",
+        //     "request": "launch",
+        //     "name": "Local Sandbox (rs846)",
+        //     "server": "http://rs846",
+        //     "serverInstance": "BC",
+        //     "port": 7049,
+        //     "tenant": "default",
+        //     "authentication": "UserPassword"
+        // },
         {
-            "type": "al",
+            "name": "AL botelo sandbox",
             "request": "launch",
-            "name": "Local Sandbox (rs846)",
-            "server": "http://rs846",
-            "serverInstance": "BC",
-            "port": 7049,
-            "tenant": "default",
-            "authentication": "UserPassword"
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "SandBox1",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "BoteloFabio123.onmicrosoft.com"
         }
     ]
 }
