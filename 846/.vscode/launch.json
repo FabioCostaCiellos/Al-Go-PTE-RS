@@ -25,5 +25,20 @@
             "enableSqlInformationDebugger": true,
             "tenant": "BoteloFabio123.onmicrosoft.com"
         }
+        ,
+         {
+            "name": "CDX sandbox",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "SandBox1",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "05293711-5e6d-4a18-9f08-d15209ffbf5b"
+        }
     ]
 }

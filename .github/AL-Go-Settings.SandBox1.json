@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go-Actions/v7.2/settings.schema.json",
+  "type": "PTE",
+  "bcContainerHelperVersion": "latest",
+  "environmentName": "SandBox1",
+  "appFolders": [],
+  "appSourceFolders": [],
+  "testFolders": [],
+  "bcptTestFolders": [],
+  "appDependencyProbingPaths": [],
+  "useProjectDependencies": true,
+  "excludeEnvironments": [],
+  "appIds": {
+    "App1": "d6b146a0-0456-459f-8ef4-ece29fafa3c2"
+  },
+  "enableCodeCop": true
+}
