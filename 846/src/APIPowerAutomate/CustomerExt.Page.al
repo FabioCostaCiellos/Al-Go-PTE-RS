@@ -15,6 +15,7 @@ pageextension 80001 CustomerExt extends "Customer Card"
                 Image = Customer;
                 Promoted = true;
                 PromotedIsBig = true;
+                ApplicationArea = All;
 
                 trigger OnAction()
                 var
